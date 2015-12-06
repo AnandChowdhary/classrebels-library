@@ -54,10 +54,9 @@ if($_GET['do'] == 'list') {
 	        	'name' => basename($i),
 	        	'path' => preg_replace('@^\./@', '', $i),
 	        	'is_dir' => is_dir($i),
-	        	'is_deleteable' => (!is_dir($i) && is_writable($directory)) || 
-	        					   (is_dir($i) && is_writable($directory) && is_recursively_deleteable($i)),
+	        	'is_deleteable' => false,
 	        	'is_readable' => is_readable($i),
-	        	'is_writable' => is_writable($i),
+	        	'is_writable' => false,
 	        	'is_executable' => is_executable($i),
 	        );
 	    }
@@ -382,15 +381,7 @@ $(function(){
 </script>
 </head><body>
 <div id="top">
-	<form action="?" method="post" id="mkdir" />
-		<label for=dirname>Create New Folder</label><input id=dirname type=text name=name value="" />
-		<input type="submit" value="create" />
-	</form>
-	<div id="file_drop_target">
-		Drag Files Here To Upload
-		<b>or</b>
-		<input type="file" multiple />
-	</div>
+	<p>Class Rebels &mdash; Break Classroom Barriers</p>
 	<div id="breadcrumb">&nbsp;</div>
 </div>
 
