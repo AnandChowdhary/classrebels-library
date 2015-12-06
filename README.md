@@ -1,9 +1,7 @@
-simple-file-manager
+Class Rebels Author
 ===================
 
-A Simple PHP file manager.  The code is a single php file.  
-
-Just copy `index.php` to a folder on your webserver.
+A Simple PHP file manager to let students access study material on Class Rebels.
 
 ## Why it is good
 
@@ -15,6 +13,8 @@ Just copy `index.php` to a folder on your webserver.
 - The interface is usable from an iPad
 - XSRF protection (though no authentication system)
 
-## Screenshot
+## Changes needed
 
-![Screenshot](https://raw.github.com/jcampbell1/simple-file-manager/master/screenshot.png "Screenshot")
+- Make it responsive
+- Add branding, etc.
+- **Add text editor and PDF viewer**
