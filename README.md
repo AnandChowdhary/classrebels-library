@@ -1,7 +1,10 @@
-Class Rebels Author
-===================
+# Class Rebels Author
 
 A Simple PHP file manager to let students access study material on Class Rebels.
+
+## ⚠️ Archive Notice
+
+In 2014, I co-founded an edtech startup, Class Rebels. One of our core products was a Virtual Library, which lets students upload PDFs of their study notes and share it with their classmates (and the world). This repository, a fork of a PHP file manager, was used to store and view files on a shared server.
 
 ## Why it is good
 
